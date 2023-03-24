@@ -1,0 +1,35 @@
+.blur{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(5px);
+
+}
+.ModalDiv{
+    background-color: blanchedalmond;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.ModalDiv-heading{
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: aqua;
+}
+.ModalDiv-error{
+    font-size: larger;
+}
+.ModalDiv-btn button{
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+}
