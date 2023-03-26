@@ -36,7 +36,7 @@ function App() {
             <Container>
                 {setList.map((val)=>{
                     return (
-                        <List name={val.name} age={val.age} key={Math.random()}  />
+                        <List name={val.name} age={val.age} college={val.college} key={Math.random()}  />
                     )
                 })}
             </Container>
